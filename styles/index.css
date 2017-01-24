@@ -1,0 +1,32 @@
+body
+{
+	background: #FFCC33;
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	
+	font: 16px/1 "Ubuntu", sans-serif
+}
+body > header
+{
+	color: #FFCC33;
+	background: #FF9933
+}
+body > header > h1
+{
+	margin: 0;
+	font-size: 45px;
+	line-height: 2;
+	text-align: center;
+	text-shadow:0px 0px 3px #131313;
+}
+
+body > main
+{
+	margin: 20px auto;
+}
